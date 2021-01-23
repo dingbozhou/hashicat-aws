@@ -8,7 +8,5 @@ module "s3_bucket" {
     enabled = true
   }
 
-   bucket_prefix = "dingbo"
-
 }
 
