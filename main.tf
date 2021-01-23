@@ -10,7 +10,8 @@ resource "aws_vpc" "hashicat" {
   tags = {
     name = "${var.prefix}-vpc-${var.region}"
     environment = "Production"
-  }
+    Billable =  "others"
+     }
 }
 
 resource "aws_subnet" "hashicat" {
