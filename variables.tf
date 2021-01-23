@@ -10,6 +10,16 @@ variable "prefix" {
   default = "dingbozhou"
 }
 
+variable "bucket" {
+  description = "bucket."
+  default = "mybucket"
+}
+
+variable "bucket_prefix" {
+  description = "bucket prefix."
+  default = "dingbozhou"
+}
+
 variable "region" {
   description = "The region where the resources are created."
   default     = "us-east-1"
